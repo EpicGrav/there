@@ -1,0 +1,132 @@
+p {
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #232223;
+}
+#a:link {
+    background-color: #eeeeee;
+    border-color: none;
+    border-radius: 4px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #343334;
+    transition: 0.2s;
+    float: left;
+    margin: 5px;
+}
+#a:hover {
+    background-color: #aaaaaa;
+    transition: 0.2s;
+    padding: 20px; 
+}
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: #343334;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #464446;
+}
+img.animation {
+    animation: image 0.4s ;
+}
+
+@keyframes image {
+    0% {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+.EpicGrav{
+    width: 480px;
+    height: 270px;
+    display: block;
+    background-color: #464446;
+    border-radius: 15px;
+}
+.float {
+    float: left;
+    margin: 10px;
+}
+h1 {
+    font-family: 'Abel', sans-serif;
+    text-transform: capitalize;
+    color:lightblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  li a:hover {
+    background-color: rgb(226, 0, 0);
+  }
+  input[type=text] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #232223;
+    padding: 2px;
+    color: #fff;
+}
+label {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+h1.dec1 {
+    border-color: #eeeeee;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 3%;
+    margin: 20px;
+    margin-left: 40px;
+}
+img.shop {
+    float: left;
+    margin: 5px;
+    width: 180px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+img.shop:hover {
+   width: 15%;
+   height: 15%;
+   transition: 0.2s;
+   border-radius: 10px;
+}
+.fit2 {
+    width: 33%;
+    margin: 16px;
+}
+
+/* POSITIONING ITEMS SECTION */
+
+
+
+
